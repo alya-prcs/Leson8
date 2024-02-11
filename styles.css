@@ -1,0 +1,57 @@
+.h31 {
+    color: pink;
+}
+#greycol  {
+    color: gray;
+}
+
+ .div2{
+color:red ;
+}
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+
+ /* Стилізація списків */
+ ul {
+    list-style: none;
+    padding: 0;
+  }
+  /* Псевдокласи стану */
+  li:hover {
+    background-color: lightblue;
+  }
+  li:active {
+    background-color: lightgreen;
+  }
+  li:focus {
+    outline: 2px solid red;
+  }
+  li:visited {
+    color: gray;
+  }
+  li:disabled {
+    opacity: 0.5;
+  }
+  /* Структурні псевдокласи */
+  li:first-child {
+    font-weight: bold;
+  }
+  li:last-child {
+    font-style: italic;
+  }
+  li:nth-child(odd) {
+    color: blue;
+  }
+  li:nth-child(even) {
+    color: green;
+  }
+  li:nth-child(3n) {
+    text-decoration: underline;
+  }
+  li:nth-last-child(2) {
+    font-size: 1.2em;
+  }
